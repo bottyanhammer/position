@@ -1,0 +1,19 @@
+Új projekt:
+(git init -> .git könyvtárat hozza létre - ez a local repository)
+1. Új projekt a github-on.
+2. copy url
+3. git clone (shift+insert -> url...) -> jön a .git is!!!
+4. cd projektMappaNév --> megjelenik a "(main)"
+5. git config user.name github-os_név
+6. git config user.email github-os_email
+7. A projekt fejlesztése a mappában...
+8. git status
+9. git add .      (A mappa tartalmát stage-eljük - előkészítés)
+10. git commit -m "megjegyzes_a_jelenlegi_allapothoz" -> az állományok bekerülnek a .git-be, azaz a local repsitory-ba - verziókezelés...
+11. git pull -> szinkronizálás
+12 git push  -> feltöltés a remote repo-ba
+Mi így csináljuk: git pull && git push
+
+A windows jelszókezelő kikapcsolása a git szempontjából:
+git config --global credential.helper ""
+
